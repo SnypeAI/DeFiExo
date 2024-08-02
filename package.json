@@ -7,14 +7,16 @@
     "start": "node exo.js"
   },
   "dependencies": {
-    "@certusone/wormhole-sdk": "^0.9.9",
-    "@solana/spl-token": "^0.3.7",
-    "@solana/web3.js": "^1.73.0",
-    "axios": "^0.21.1",
+    "@certusone/wormhole-sdk": "^0.9.24",
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^0.21.4",
+    "bs58": "^5.0.0",
+    "chalk": "^4.1.2",
     "ethers": "^5.7.2",
     "express": "^4.17.1",
-    "bs58": "^5.0.0",
+    "fs": "^0.0.1-security",
     "imap": "^0.8.19",
-    "mailparser": "^3.5.0"
+    "mailparser": "^3.7.1"
   }
 }
